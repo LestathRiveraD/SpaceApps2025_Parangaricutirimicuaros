@@ -1,0 +1,6 @@
+{
+    "Empresas":["Textil","Comida","Automotriz","Electronica","Petroquimica","Construccion","Metalurgica","Caucho","Data Center","Cervecera"],
+    "Emisiones":["Gas","Agua","Suelo","Electricidad","Urbano"],
+    "Textil":[]
+    
+}
