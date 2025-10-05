@@ -1,0 +1,104 @@
+[
+{
+  "Empresas": {
+    "Textil": {
+      "Emisiones": {
+        "Gas": {"floor": 5, "ceiling": 20},
+        "Agua": {"floor": 500, "ceiling": 2000},
+        "Suelo": {"floor": 1, "ceiling": 5},
+        "Electricidad": {"floor": 20, "ceiling": 100},
+        "Urbano": {"floor": 0.1, "ceiling": 0.5}
+      }
+    },
+    "Comida": {
+      "Emisiones": {
+        "Gas": {"floor": 3, "ceiling": 15},
+        "Agua": {"floor": 300, "ceiling": 1000},
+        "Suelo": {"floor": 0.5, "ceiling": 3},
+        "Electricidad": {"floor": 10, "ceiling": 50},
+       
+        "Urbano": {"floor": 0.05, "ceiling": 0.3}
+      }
+    },
+    "Automotriz": {
+      "Emisiones": {
+        "Gas": {"floor": 10, "ceiling": 30},
+        "Agua": {"floor": 200, "ceiling": 800},
+        "Suelo": {"floor": 2, "ceiling": 8},
+        "Electricidad": {"floor": 30, "ceiling": 150},
+        "Urbano": {"floor": 0.2, "ceiling": 1.0}
+      }
+    },
+    "Electronica": {
+      "Emisiones": {
+        "Gas": {"floor": 8, "ceiling": 25},
+        "Agua": {"floor": 100, "ceiling": 400},
+        "Suelo": {"floor": 0.5, "ceiling": 3},
+        "Electricidad": {"floor": 50, "ceiling": 200},
+        "Urbano": {"floor": 0.05, "ceiling": 0.4}
+      }
+    },
+    "Petroquimica": {
+      "Emisiones": {
+        "Gas": {"floor": 20, "ceiling": 50},
+        "Agua": {"floor": 500, "ceiling": 2500},
+        "Suelo": {"floor": 3, "ceiling": 10},
+        "Electricidad": {"floor": 50, "ceiling": 300},
+        "Urbano": {"floor": 0.3, "ceiling": 1.5}
+      }
+    },
+    "Construccion": {
+      "Emisiones": {
+        "Gas": {"floor": 5, "ceiling": 25},
+        "Agua": {"floor": 100, "ceiling": 500},
+        "Suelo": {"floor": 2, "ceiling": 10},
+        "Electricidad": {"floor": 5, "ceiling": 30},
+        "Urbano": {"floor": 0.5, "ceiling": 2.0}
+      }
+    },
+    "Metalurgica": {
+      "Emisiones": {
+        "Gas": {"floor": 15, "ceiling": 40},
+        "Agua": {"floor": 400, "ceiling": 1500},
+        "Suelo": {"floor": 2, "ceiling": 8},
+        "Electricidad": {"floor": 40, "ceiling": 200},
+        "Urbano": {"floor": 0.2, "ceiling": 1.0}
+      }
+    },
+    "Caucho": {
+      "Emisiones": {
+        "Gas": {"floor": 10, "ceiling": 30},
+        "Agua": {"floor": 200, "ceiling": 800},
+        "Suelo": {"floor": 1, "ceiling": 5},
+        "Electricidad": {"floor": 20, "ceiling": 100},
+        "Urbano": {"floor": 0.1, "ceiling": 0.5}
+      }
+    },
+    "Data Center": {
+      "Emisiones": {
+        "Gas": {"floor": 8, "ceiling": 25},
+        "Agua": {"floor": 50, "ceiling": 300},
+        "Suelo": {"floor": 0.2, "ceiling": 2},
+        "Electricidad": {"floor": 100, "ceiling": 400},
+        "Urbano": {"floor": 0.01, "ceiling": 0.1}
+      }
+    },
+    "Cervecera": {
+      "Emisiones": {
+        "Gas": {"floor": 5, "ceiling": 25},
+        "Agua": {"floor": 300, "ceiling": 1200},
+        "Suelo": {"floor": 1, "ceiling": 5},
+        "Electricidad": {"floor": 10, "ceiling": 60},
+        "Urbano": {"floor": 0.05, "ceiling": 0.4}
+      }
+    },
+    "Guide":{
+      "Gas":"Kg CO2eq",
+      "Agua":"Litros",
+      "Suelo":"m2",
+      "Electricidad":"kWh",
+      "Urbano":"m2"
+    }
+  }
+  }
+]
